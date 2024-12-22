@@ -89,11 +89,11 @@ import random
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/sanjaykagra86"),
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/SSC_Aspirants_7"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/+JL7N8k7h2n05ZWM1"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/Bhandara_2_O"),
         ],
         [
-            InlineKeyboardButton(text="🪄 Updates Channel", url="https://t.me/SSC_Aspirants_7"),
+            InlineKeyboardButton(text="🪄 Updates Channel", url="https://t.me/Bhandara_2_O"),
         ],
     ]
 )
@@ -102,11 +102,11 @@ keyboard = InlineKeyboardMarkup(
 Busy = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/sanjaykagra86"),
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/SSC_Aspirants_7"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Bhandara_2_O"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/Bhandara_2_O"),
         ],
         [
-            InlineKeyboardButton(text="🪄 Updates Channel", url="https://t.me/SSC_Aspirants_7"),
+            InlineKeyboardButton(text="🪄 Updates Channel", url="https://t.me/Bhandara_2_O"),
         ],
     ]
 )
@@ -142,7 +142,7 @@ async def start_command(bot: Client, message: Message):
         "➠ **Can Extract Videos & PDFs From Your Text File and Upload to Telegram!**\n"
         "➠ **For Guide Use Command /guide 📖**\n\n"
         "➠ **Use /moni Command to Download From TXT File** 📄\n\n"
-        "➠ **𝐌𝐚𝐝𝐞 𝐁𝐲:** @SanjayKagra86🩷"
+        "➠ **𝐌𝐚𝐝𝐞 𝐁𝐲:** SHIVAM♥️"
     )
 
     # Send the image with caption and buttons
@@ -373,7 +373,7 @@ async def remove_channel(client, message: Message):
         await message.reply_text("Invalid command format. Use: /remove_channels <channel_id>")
 
 # /id Command
-@app.on_message(filters.command("id"))
+@bot.on_message(filters.command("id"))
 async def id_command(client, message: Message):
     if message.chat.type == "private":
         # For private chats, return the user ID
@@ -394,7 +394,7 @@ async def id_command(client, message: Message):
             f"`/add_channel -100{chat_id}`"
         )
 
-YOUR_ADMIN_ID = 5548106944
+YOUR_ADMIN_ID = 7136372052
 
 # Helper function to check admin privilege
 def is_admin(user_id):
@@ -445,10 +445,10 @@ async def stop_handler(client, message: Message):
             await message.reply_text("🚫 You are not a premium user. Subscribe to unlock all features! ✨")
             return
 
-    await message.reply_text("♦️ 𝐒𝐭𝐨𝐩𝐩𝐞𝐝 ♦️" , True)
+    await message.reply_text(" Stopped🚦 " , True)
     os.execl(sys.executable, sys.executable, *sys.argv)
 
-@bot.on_message(filters.command("moni"))
+@bot.on_message(filters.command("Shivam"))
 async def moni_handler(client: Client, m: Message):
     if m.chat.type == "private":
         user_id = str(m.from_user.id)
@@ -554,7 +554,7 @@ async def moni_handler(client: Client, m: Message):
     # Default credit message
     credit = "️ ⁪⁬⁮⁮⁮"
     if raw_text3 == 'de':
-        CR = '@SanjayKagra86🩷'
+        CR = 'SHIVAM♥️'
     elif raw_text3:
         CR = raw_text3
     else:
@@ -646,8 +646,8 @@ async def moni_handler(client: Client, m: Message):
         
                 
             try:                
-                cc = f'**🎥 VIDEO ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} {res} ⎳𝓸𝓿𝓮❥❤️━━╬٨ﮩSanju٨ـﮩـ Love❥.mkv\n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
-                cc1 = f'**📁 FILE ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} 𝄟✮͢🦋⃟≛⃝m✮⃝oni.pdf \n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
+                cc = f'**🎥 VIDEO ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} {res} SHIVAM♥️.mkv\n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
+                cc1 = f'**📕 FILE ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} SHIVAM♥️.pdf \n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}**'
                                                  
                 if "drive" in url:
                     try:
@@ -718,7 +718,7 @@ async def moni_handler(client: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("🔰Done Boss🔰")
+    await m.reply_text("DONE ✅")
 
 
 
