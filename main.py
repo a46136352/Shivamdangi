@@ -142,7 +142,7 @@ async def start_command(bot: Client, message: Message):
         "➠ **Extract Videos & PDFs From Your Txt File and Upload to Telegram!**\n"
         "➠ **For Guide Use Command /guide 📖**\n\n"
         "➠ **Use /Bhandara Command to Download From TXT File** 📄\n\n"
-        "➠ **𝐌𝐚𝐝𝐞 𝐁𝐲:** SHIVAM♥️"
+        "➠ **𝐌𝐚𝐝𝐞 𝐁𝐲:** @Bhandara_2_O♥️"
     )
 
     # Send the image with caption and buttons
@@ -249,7 +249,7 @@ async def guide_handler(client: Client, message: Message):
         "📖 **Usage**:\n\n"
         "1. `/add_channel -100{channel_id}` - Add a channel to the bot.\n"
         "2. `/remove_channel -100{channel_id}` - Remove a channel from the bot.\n"
-        "3. `/moni .txt` file command - Process the .txt file.\n"
+        "3. `/Bhandara .txt` file command - Process the .txt file.\n"
         "4. `/stop` - Stop the task running in the bot. 🚫\n\n"
         "If you have any questions, feel free to ask! 💬"
     )
@@ -554,7 +554,7 @@ async def moni_handler(client: Client, m: Message):
     # Default credit message
     credit = "️ ⁪⁬⁮⁮⁮"
     if raw_text3 == 'de':
-        CR = 'SHIVAM♥️'
+        CR = '@Bhandara_2_O'
     elif raw_text3:
         CR = raw_text3
     else:
