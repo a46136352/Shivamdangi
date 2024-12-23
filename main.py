@@ -114,12 +114,12 @@ Busy = InlineKeyboardMarkup(
 # Image URLs for the random image feature
 image_urls = [
     "https://i.ibb.co/0BSDn9W/portrait-hacker-with-mask-23-2148165908.jpg",
-    "https://i.ibb.co/Z8R4z0g/file-3962.jpg",
-    "https://ibb.co/zGX3YSg/file-3960.jpg",
-    "https://ibb.co/zGX3YSg/file-3960.jpg",
-    "https://ibb.co/zGX3YSg/file-3960.jpg",
-    "https://ibb.co/zGX3YSg/file-3960.jpg",
-    "https://ibb.co/zGX3YSg/file-3960.jpg",
+    "https://i.ibb.co/0BSDn9W/portrait-hacker-with-mask-23-2148165908.jpg",
+    "https://i.ibb.co/0BSDn9W/portrait-hacker-with-mask-23-2148165908.jpg",
+    "https://i.ibb.co/0BSDn9W/portrait-hacker-with-mask-23-2148165908.jpg",
+    "https://i.ibb.co/0BSDn9W/portrait-hacker-with-mask-23-2148165908.jpg",
+    "https://i.ibb.co/0BSDn9W/portrait-hacker-with-mask-23-2148165908.jpg",
+    "https://i.ibb.co/0BSDn9W/portrait-hacker-with-mask-23-2148165908.jpg",
     # Add more image URLs as needed
 ]
 
