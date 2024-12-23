@@ -118,7 +118,7 @@ image_urls = [
     "https://i.ibb.co/Z8R4z0g/file-3962.jpg",
     "https://i.ibb.co/LtqjVy7/file-3958.jpg",
     "https://i.ibb.co/bm20zfd/file-3959.jpg",
-    "https://i.ibb.co/0V0BngV/file-3960.jpg",
+    "https://ibb.co/zGX3YSg/file-3960.jpg",
     "https://i.ibb.co/rQMXQjX/file-3961.jpg",
     # Add more image URLs as needed
 ]
@@ -138,8 +138,8 @@ async def start_command(bot: Client, message: Message):
     # Caption for the image
     caption = (
         "**𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫 👋!**\n\n"
-        "➠ **𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 ♥️**\n"
-        "➠ **Can Extract Videos & PDFs From Your Text File and Upload to Telegram!**\n"
+        "➠ **𝐈 𝐚𝐦 𝐚 𝐓𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 ♥️**\n"
+        "➠ **Extract Videos & PDFs From Your Text File and Upload to Telegram!**\n"
         "➠ **For Guide Use Command /guide 📖**\n\n"
         "➠ **Use /Bhandara Command to Download From TXT File** 📄\n\n"
         "➠ **𝐌𝐚𝐝𝐞 𝐁𝐲:** SHIVAM♥️"
@@ -448,7 +448,7 @@ async def stop_handler(client, message: Message):
     await message.reply_text(" Stopped🚦 " , True)
     os.execl(sys.executable, sys.executable, *sys.argv)
 
-@bot.on_message(filters.command("Shivam"))
+@bot.on_message(filters.command("Bhandara"))
 async def moni_handler(client: Client, m: Message):
     if m.chat.type == "private":
         user_id = str(m.from_user.id)
