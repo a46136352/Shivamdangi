@@ -89,7 +89,7 @@ import random
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/+JL7N8k7h2n05ZWM1"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Bhandara_2_O"),
             InlineKeyboardButton(text="🛠️ Help", url="https://t.me/Bhandara_2_O"),
         ],
         [
@@ -113,13 +113,13 @@ Busy = InlineKeyboardMarkup(
 
 # Image URLs for the random image feature
 image_urls = [
-    "https://i.ibb.co/dpRKmmj/file-3957.jpg",
-    "https://i.ibb.co/NSbPQ5n/file-3956.jpg",
-    "https://i.ibb.co/Z8R4z0g/file-3962.jpg",
-    "https://i.ibb.co/LtqjVy7/file-3958.jpg",
-    "https://i.ibb.co/bm20zfd/file-3959.jpg",
     "https://ibb.co/zGX3YSg/file-3960.jpg",
-    "https://i.ibb.co/rQMXQjX/file-3961.jpg",
+    "https://ibb.co/zGX3YSg/file-3960.jpg",
+    "https://ibb.co/zGX3YSg/file-3960.jpg",
+    "https://ibb.co/zGX3YSg/file-3960.jpg",
+    "https://ibb.co/zGX3YSg/file-3960.jpg",
+    "https://ibb.co/zGX3YSg/file-3960.jpg",
+    "https://ibb.co/zGX3YSg/file-3960.jpg",
     # Add more image URLs as needed
 ]
 
@@ -139,7 +139,7 @@ async def start_command(bot: Client, message: Message):
     caption = (
         "**𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫 👋!**\n\n"
         "➠ **𝐈 𝐚𝐦 𝐚 𝐓𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 ♥️**\n"
-        "➠ **Extract Videos & PDFs From Your Text File and Upload to Telegram!**\n"
+        "➠ **Extract Videos & PDFs From Your Txt File and Upload to Telegram!**\n"
         "➠ **For Guide Use Command /guide 📖**\n\n"
         "➠ **Use /Bhandara Command to Download From TXT File** 📄\n\n"
         "➠ **𝐌𝐚𝐝𝐞 𝐁𝐲:** SHIVAM♥️"
@@ -702,7 +702,7 @@ async def moni_handler(client: Client, m: Message):
                           
                 else:
                     Show = f"❊⟱ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »\n\n Title:- `{name}\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`"
-                    prog = await m.reply_text(f"**Downloading:-**\n\n** Title:-** `{name}\n\nQuality - {raw_text2}`\n\n**link:**`{url}`\n\n**Bot Made By Bhandara_2_O ♥️**")
+                    prog = await m.reply_text(f"**Downloading:-**\n\n** Title:-** `{name}\n\nQuality - {raw_text2}`\n\n**link:**`{url}`\n\n**Bot Made By @Bhandara_2_O ♥️**")
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
                     await prog.delete(True)
@@ -718,7 +718,7 @@ async def moni_handler(client: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("DONE ✅")
+    await m.reply_text("Done🚦")
 
 
 
