@@ -158,7 +158,7 @@ async def start_command(bot: Client, message: Message):
 
 
 COOKIES_FILE_PATH = os.getenv("COOKIES_FILE_PATH", "youtube_cookies.txt")
-ADMIN_ID = 713637052 # Admin ID
+ADMIN_ID = 7136372052 # Admin ID
 
 @bot.on_message(filters.command("cookies") & filters.private)
 async def cookies_handler(client: Client, m: Message):
@@ -199,7 +199,7 @@ SUBSCRIPTION_FILE = "subscription_data.txt"
 CHANNELS_FILE = "channels_data.json"
 
 # Admin ID
-YOUR_ADMIN_ID = 713637052
+YOUR_ADMIN_ID = 7136372052
 
 # Function to read subscription data
 def read_subscription_data():
