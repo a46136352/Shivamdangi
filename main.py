@@ -646,8 +646,8 @@ async def moni_handler(client: Client, m: Message):
         
                 
             try:                
-                cc = f'**[🎥] Vid_ID:** {str(count).zfill(3)} \n\n**Video Name: **{name1} {res} {CR}.mkv\n\n**Batch Name: **{b_name}**' 
-                cc1 = f'**[📕] File_ID:**{str(count).zfill(3)} \n\n**File Name: **{name1} {CR} .pdf\n\n**Batch Name: **{b_name}**'
+                cc = f'**[🎥] Vid_ID:** {str(count).zfill(3)} \n\n**Video Name: **{name1} {res} {CR}.mkv\n\n**Batch Name: **{b_name} \n\n**Downloaded By: {CR}**' 
+                cc1 = f'**[📕] File_ID:** {str(count).zfill(3)} \n\n**File Name: **{name1} {CR} .pdf\n\n**Batch Name: **{b_name}** \n\n**Downloaded By: {CR}**'
                                                  
                 if "drive" in url:
                     try:
