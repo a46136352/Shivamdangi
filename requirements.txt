@@ -29,7 +29,7 @@ werkzeug==2.0.2
 itsdangerous==2.0.1
 ffprobe
 youtube-dl
-m3u8-download
+
 mediainfo
 aria2
 pycurl
